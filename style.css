@@ -1,0 +1,197 @@
+main{
+        margin: 0; 
+        width:960px;
+        background-color:white;
+        height: 930px;
+        padding-left: 15%;
+}
+
+body {
+        background-color: white;
+        margin: 0 auto;
+        height: auto;
+        font-family: 'Times New Roman', Times, serif;
+        
+}
+
+ul {
+        list-style-type: none;
+        margin: 0; /* Dış kenar boşluğu */
+        padding: 0; /* İç kenar boşluğu */
+        overflow: hidden;
+        padding-left:27%;
+        background-color:rgb(218, 214, 186); 
+}
+
+ul li {
+        float: left         
+}
+
+ul li a {
+        
+        display: block;
+        padding:20px 24px;
+        color:rgb(69, 67, 67);
+        text-decoration:none;               
+}
+
+ul li a:hover {
+        background-color: white    
+}
+
+footer{
+        margin: 0; 
+        width:960px;
+        padding-left: 15%;
+        position: static;      
+}
+
+ol{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color:rgb(218, 214, 186); 
+        font-size: 15px; 
+            
+}
+
+ol li {
+        float: left;  
+        width: 13%;
+        padding-top: 0px;
+}
+
+ol li a {
+        display: block;
+        padding:25px 30px;
+        color:rgb(69, 67, 67);
+        text-decoration:none; 
+        width: 60px;
+}
+
+ol li a:hover {
+        background-color: azure;   
+}
+.son-yazi{
+        padding-left: 82%;
+        font-size: 16px;   
+            
+}
+
+.sosyalbutonlar{
+	margin-top: -20px;
+	display: inline-block;
+	position: relative;
+	left: 140px;
+        padding-top: 40px;
+}
+
+.sosyalbutonlar a  {
+        background:#a1a1a1;
+        color: #FFF;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 15px;;
+        overflow: hidden;
+        position: relative;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+}
+          
+.sosyalbutonlar a{  
+        transition: transform 0.4s linear 0s, 
+        border-top-left-radius 0.1s linear 0s, 
+        border-top-right-radius 0.1s linear 0.1s, 
+        border-bottom-right-radius 0.1s linear 0.2s, 
+        border-bottom-left-radius 0.1s linear 0.3s;       
+}      
+.sosyalbutonlar .facebook:hover {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #3b5998;
+}
+.sosyalbutonlar .twitter:hover   {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #00aced;
+      }
+.sosyalbutonlar .google-plus:hover   {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #dd4b39;
+} 
+.sosyalbutonlar .instagram:hover   {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #bc2a8d;
+}
+.sosyalbutonlar .linkedin:hover   {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #00aced;
+}
+.sosyalbutonlar .youtube:hover   {
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+        background-color: #bb0000;
+}
+
+.about{
+        width: auto;
+        height: auto;
+        padding-left: 5px;
+        margin: auto;
+}
+
+.list ul{
+        list-style-type: none;
+}
+
+.index-pics{
+	margin-top: -20px;      
+	/* display: inline-block; */
+        padding:0 10px 10px 0;
+	position: relative;
+        padding-top: 30px;
+        float: left;
+        z-index: 2;
+}
+
+.index-pics a  {
+        width: 400px;
+        height: 250px;
+        display: inline-block;
+        border-radius: 10px;
+        margin-right: 20px;     
+        overflow: hidden;
+        position: relative;
+        line-height: 30px;
+}
+
+.index-pics a {
+        transition: transform 0.4s linear 0s, 
+        border-top-left-radius 0.1s linear 0s, 
+        border-top-right-radius 0.1s linear 0.1s, 
+        border-bottom-right-radius 0.1s linear 0.2s, 
+        border-bottom-left-radius 0.1s linear 0.3s;   
+}
+
+.index-pics a:hover{
+       opacity: 0.8;
+}
+
+.rota a{
+        display: block;
+        padding:5px;
+        text-decoration: none;
+        color: black;
+        
+}
+.rota a:hover{
+        text-decoration: underline;
+}
